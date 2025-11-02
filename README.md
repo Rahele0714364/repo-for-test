@@ -1,7 +1,7 @@
 # repo-for-test 
 #!/usr/bin/env python3
 """
-Task Manager CLI - A simple command-line task management tool
+ Manager CLI - A simple command-line task management tool
 """
 
 import argparse
