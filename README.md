@@ -20,7 +20,7 @@ def main():
     add_parser.add_argument('-p', '--priority', choices=['low', 'medium', 'high'], 
                            default='medium', help='Task priority')
     
-    # List tasks command
+    #tasks command
     list_parser = subparsers.add_parser('list', help='List all tasks')
     list_parser.add_argument('-s', '--status', choices=['pending', 'completed'], 
                             help='Filter by status')
